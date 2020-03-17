@@ -4,4 +4,4 @@ def square_array(numbers)
   new_numbers
 end
 
-new_number = numbers.collect {|i| numbers**2}
+new_number = numbers.collect {|i| i**2}
